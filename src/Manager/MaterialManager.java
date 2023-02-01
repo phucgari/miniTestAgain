@@ -22,6 +22,13 @@ public class MaterialManager {
         materials.add(new Meat(id,name,manufacturingDate,cost,weight));
     }
 
+    public void deleteByIndex(int index){
+        materials.remove(index);
+    }
+    public void updateByIndex(int index,Material material){
+        deleteByIndex(index);
+        materials.add(index,material);
+    }
     @Override
     public String toString(){
         String result="";

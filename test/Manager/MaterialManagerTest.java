@@ -1,6 +1,5 @@
 package Manager;
 
-import Manager.MaterialManager;
 import Materials.CrispyFlour;
 import Materials.Material;
 import Materials.Meat;
@@ -37,6 +36,29 @@ class MaterialManagerTest {
         manager.addMeat("3","test3",LocalDate.of(2023,1,29),150,10);
         expected+="Meat id=3,name=test3,date=2023-01-29,cost=150,weight=10.0\n";
         assertEquals(expected,manager.toString());
+    }
+    @Test
+    void testUpdate(){
+        Material newMeat=new Meat("3","test3",LocalDate.of(2023,2,1),200,10);
+        manager.updateByIndex(1,newMeat);
+        Material newCrispyFlour=new CrispyFlour("4","test4",LocalDate.of(2022,10,4),100,5);
+        manager.updateByIndex(0,newCrispyFlour);
+        String expected="CrispyFlour id=4,name=test4,date=2022-10-04,cost=100,quantity=5.0\n" +
+                "Meat id=3,name=test3,date=2023-02-01,cost=200,weight=10.0\n";
+        assertEquals(expected,manager.toString());
+    }
+
+    @Test
+    void testDelete(){
+        manager.deleteByIndex(0);
+        String expected="Meat id=2,name=test2,date=2023-01-30,cost=100,weight=5.0\n";
+        assertEquals(expected,manager.toString());
+        manager.deleteByIndex(0);
+        expected="";
+        assertEquals(expected,manager.toString());
+        init();
+        manager.deleteByIndex(1);
+        expected="CrispyFlour id=1,name=test1,date=2022-07-20,cost=200,quantity=10.0\n";
     }
 
     @Test
