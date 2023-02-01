@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Manager/MaterialManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager/MaterialManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Manager/MaterialManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Manager/MaterialManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
       <updated>1675129210229</updated>
       <workItem from="1675129210637" duration="13483000" />
       <workItem from="1675152698776" duration="136000" />
-      <workItem from="1675236182991" duration="2915000" />
+      <workItem from="1675236182991" duration="7922000" />
     </task>
     <servers />
   </component>

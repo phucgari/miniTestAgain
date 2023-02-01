@@ -21,6 +21,9 @@ public class MaterialManager {
     public void addMeat(String id, String name, LocalDate manufacturingDate, int cost, double weight) {
         materials.add(new Meat(id,name,manufacturingDate,cost,weight));
     }
+    public void add(Material material){
+        materials.add(material);
+    }
 
     public void deleteByIndex(int index){
         materials.remove(index);
