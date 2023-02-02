@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e934ea1-f903-4176-b74e-ed9aba392a29" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Manager/MaterialManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/MaterialManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materials/CrispyFlour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/materials/CrispyFlour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materials/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/materials/Discount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materials/Material.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/materials/Material.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materials/Meat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/materials/Meat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Manager/MaterialManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/manager/MaterialManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Material/CrispyFlourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/material/CrispyFlourTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Material/MeatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/material/MeatTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,27 +41,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "D:/codegym/course2/practise/practise4/miniTestAgain",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/codegym/course2/practise/practise4/miniTestAgain&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -77,6 +84,7 @@
       <workItem from="1675129210637" duration="13483000" />
       <workItem from="1675152698776" duration="136000" />
       <workItem from="1675236182991" duration="8218000" />
+      <workItem from="1675323000356" duration="161000" />
     </task>
     <servers />
   </component>

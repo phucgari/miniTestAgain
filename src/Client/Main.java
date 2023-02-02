@@ -109,7 +109,6 @@ public class Main {
         }
     }
 
-
     private static LocalDate getDate() {
         LocalDate result;
         try{
