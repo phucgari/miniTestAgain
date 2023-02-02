@@ -1,6 +1,6 @@
-package Material;
+package material;
 
-import Materials.Meat;
+import materials.Meat;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

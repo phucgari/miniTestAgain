@@ -1,8 +1,8 @@
-package Manager;
+package manager;
 
-import Materials.CrispyFlour;
-import Materials.Material;
-import Materials.Meat;
+import materials.CrispyFlour;
+import materials.Material;
+import materials.Meat;
 
 import java.time.LocalDate;
 import java.util.LinkedList;

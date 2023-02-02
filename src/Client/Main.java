@@ -1,11 +1,10 @@
-package Client;
+package client;
 
-import Manager.MaterialManager;
-import Materials.Material;
-import Materials.Meat;
-import Materials.CrispyFlour;
+import manager.MaterialManager;
+import materials.Material;
+import materials.Meat;
+import materials.CrispyFlour;
 
-import java.sql.SQLOutput;
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
 import java.util.LinkedList;

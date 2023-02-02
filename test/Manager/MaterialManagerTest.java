@@ -1,8 +1,8 @@
-package Manager;
+package manager;
 
-import Materials.CrispyFlour;
-import Materials.Material;
-import Materials.Meat;
+import materials.CrispyFlour;
+import materials.Material;
+import materials.Meat;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

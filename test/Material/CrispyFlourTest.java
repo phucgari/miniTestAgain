@@ -1,6 +1,6 @@
-package Material;
+package material;
 
-import Materials.CrispyFlour;
+import materials.CrispyFlour;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
