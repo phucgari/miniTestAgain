@@ -41,13 +41,13 @@ public class Main {
 
     private static void updateMaterial() {
         System.out.println("Update material chosen");
-        Scanner scanner=new Scanner(System.in);
         Material newMaterial=inputNewMaterial();
-        int index = getIndex(scanner);
+        int index = getIndex();
         if(index!=-1)manager.updateByIndex(index,newMaterial);
     }
 
-    private static int getIndex(Scanner scanner) {
+    private static int getIndex() {
+        Scanner scanner=new Scanner(System.in);
         System.out.println("enter index to change");
         int index= Integer.parseInt(scanner.nextLine());
         if(index>=0&&index<materials.size());
@@ -61,8 +61,7 @@ public class Main {
     private static void deleteMaterial() {
         System.out.println("Delete chosen");
         System.out.println("input id to delete");
-        Scanner scanner=new Scanner(System.in);
-        int index = getIndex(scanner);
+        int index = getIndex();
         if (index!=-1) manager.deleteByIndex(index);
     }
 
